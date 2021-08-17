@@ -15,21 +15,21 @@ export default function Calculator() {
       case 'CE':
         setDisplay(display.slice(0, -1));
         break;
-      case '=':
-        calculate();
-        break;
+      // case '=':
+      //   calculate();
+      //   break;
       default:
         setDisplay(display + buttonValue);
     }
   };
 
-  const calculate = () => {
-    try {
-      setDisplay((eval(display) || "" ) + "");
-    } catch(e) {
-      setDisplay('error');
-    }
-  };
+  // const calculate = () => {
+  //   try {
+  //     setDisplay((eval(display) || "" ) + "");
+  //   } catch(e) {
+  //     setDisplay('error');
+  //   }
+  // };
   
   return (
     <div id="calculator">

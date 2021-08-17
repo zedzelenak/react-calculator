@@ -6,7 +6,7 @@ export default function Keypad(props) {
   }
 
   return (
-    <div className="buttons">
+    <div id="keypad">
       <button onClick={e => propsOnClick(e)}>CE</button>
       <button onClick={e => propsOnClick(e)}>C</button>
       <button></button>

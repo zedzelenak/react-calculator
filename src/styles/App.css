@@ -1,0 +1,41 @@
+body {
+  background-color: #3c40c6;
+}
+
+#root {
+  margin: 0 auto;
+  width: 500px;
+  padding: 30px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  background-color: #575fcf;
+}
+
+#calculator {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#calculator #keypad {
+  display: flex;
+  flex-flow: row-nowrap;
+}
+
+#calculator #displayer {
+  width: 100%;
+  height: 75px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+
+#keypad {
+  flex-flow: row wrap;
+}
+
+#keypad button {
+  width: 25%;
+  padding: 20px;
+  margin: 0;
+  font-size: 20px;
+}
